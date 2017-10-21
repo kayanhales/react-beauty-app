@@ -2,14 +2,15 @@ import React from 'react'
 import { Route, Link } from 'react-router-dom'
 import CartItem from './CartItem'
 
-const Makeup = () => (
+const MakeupConfirm = () => (
   <Route>
     <div className="container">
-      <CartItem itemTitle="Add Makeup to cart?" price="$200" />
+      <CartItem itemTitle="Your Makeup purchase" price="$200" />
+      <p>Receipt $0.00</p>
       <p>
-        <Link to={"makeUpConfirm"}>
+        <Link to={"thankyou"}>
           <button type="button" className="btn btn-primary">
-            Add To Cart
+            Confirm
           </button>
         </Link>
       </p>
@@ -25,4 +26,4 @@ const Makeup = () => (
 );
 
 
-export default Makeup
+export default MakeupConfirm
