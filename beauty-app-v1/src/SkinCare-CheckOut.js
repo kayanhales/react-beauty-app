@@ -24,5 +24,4 @@ const SkinCare = () => (
   </Route>
 );
 
-
 export default SkinCare

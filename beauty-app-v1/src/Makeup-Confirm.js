@@ -25,5 +25,4 @@ const MakeupConfirm = () => (
   </Route>
 );
 
-
 export default MakeupConfirm

@@ -16,5 +16,4 @@ const ThankYou = () => (
   </Route>
 );
 
-
 export default ThankYou
