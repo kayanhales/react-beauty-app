@@ -6,7 +6,7 @@ const MakeupConfirm = () => (
   <Route>
     <div className="container">
       <CartItem itemTitle="Your Makeup purchase" price="$200" />
-      <p>Receipt $0.00</p>
+      <p>Receipt $200.00</p>
       <p>
         <Link to={"thankyou"}>
           <button type="button" className="btn btn-primary">

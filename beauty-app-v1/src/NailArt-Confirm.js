@@ -6,7 +6,7 @@ const NailArtConfirm = () => (
   <Route>
     <div className="container">
       <CartItem itemTitle="Your Nail Art purchase" price="$150" />
-      <p>Receipt $0.00</p>
+      <p>Receipt $150.00</p>
       <p>
         <Link to={"thankyou"}>
           <button type="button" className="btn btn-primary">
