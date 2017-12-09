@@ -24,5 +24,4 @@ const NailArt = () => (
   </Route>
 );
 
-
 export default NailArt

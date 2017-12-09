@@ -24,5 +24,4 @@ const Makeup = () => (
   </Route>
 );
 
-
 export default Makeup

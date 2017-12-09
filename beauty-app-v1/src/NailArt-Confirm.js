@@ -25,5 +25,4 @@ const NailArtConfirm = () => (
   </Route>
 );
 
-
 export default NailArtConfirm
